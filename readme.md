@@ -15,3 +15,7 @@ $ ./gem-deps-i
 ## Todo
 
 - バージョンの指定
+
+## Refs
+
+- [Change output](https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux)

@@ -2,9 +2,10 @@
 
 # Color
 BLUE='\033[0;34m'
+DEF='\033[0m'
 
 echo -e "${BLUE}...Install ruby packages..."
-echo -e "${BLUE}Last updated: 08/11/18"
+echo -e "${BLUE}Last updated: 08/11/18${DEF}"
 
 # Install dependents
 gem i --no-document \
