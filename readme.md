@@ -19,3 +19,4 @@ $ ./gem-deps-i
 ## Refs
 
 - [Change output](https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux)
+- [AirbnbとESLint](https://mae.chab.in/archives/2874)
