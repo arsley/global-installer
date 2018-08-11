@@ -1,0 +1,12 @@
+#!/usr/local/bin/zsh
+
+# Color
+BLUE='\033[0;34m'
+
+echo -e "${BLUE}...Install ruby packages..."
+echo -e "${BLUE}Last updated: 08/11/18"
+
+# Install dependents
+gem i --no-document \
+  bundler \
+  rubocop

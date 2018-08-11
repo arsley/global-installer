@@ -1,0 +1,26 @@
+#!/usr/local/bin/zsh
+
+# Color
+BLUE='\033[0;34m'
+
+echo -e "${BLUE}...Install node packages..."
+echo -e "${BLUE}Last updated: 08/11/18"
+
+# update self
+npm i -g npm
+
+# install dependents
+npm i -g \
+  eslint@4.19.1 \
+  eslint-config-airbnb-base \
+  eslint-plugin-import \
+  eslint-plugin-react \
+  surge \
+  electron \
+  chromenu \
+  elm \
+  elm-format \
+  create-react-app
+
+echo -e "${BLUE}List up what you installed global"
+npm ls -g --depth 0
