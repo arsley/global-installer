@@ -23,5 +23,5 @@ npm i -g \
   elm-format \
   create-react-app
 
-echo -e "${BLUE}List up what you installed global"
+echo -e "${BLUE}List up what you installed global${DEF}"
 npm ls -g --depth 0
