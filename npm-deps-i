@@ -23,5 +23,9 @@ npm i -g \
   elm-format \
   create-react-app
 
+# use yarn instead of npm
+# because of `npm i -g mstdn` do not work for me
+yarn global add mstdn --prefix /usr/local
+
 echo -e "${BLUE}List up what you installed global${DEF}"
 npm ls -g --depth 0
