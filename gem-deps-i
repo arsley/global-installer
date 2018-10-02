@@ -10,5 +10,19 @@ echo -e "${BLUE}Last updated: 08/11/18${DEF}"
 # Install dependents
 gem i --no-document \
   bundler \
-  rubocop \
-  rabbit
+  rubocop
+
+# ref: http://rabbit-shocker.org/ja/install/homebrew.html
+# ref: https://github.com/masayuki14/worklog/issues/2
+# install dependencies for `rabbit` gem
+brew install cairo
+brew link cairo
+brew link --overwrite pixman
+brew install pango
+brew install gtk+
+brew install poppler
+# edit then rebuild
+vim /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/poppler.rb
+brew reinstall poppler --with-qt
+sudo PKG_CONFIG_PATH=/usr/local/opt/libffi/lib/pkgconfig gem install rabbit
+
