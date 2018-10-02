@@ -10,4 +10,5 @@ echo -e "${BLUE}Last updated: 08/11/18${DEF}"
 # Install dependents
 gem i --no-document \
   bundler \
-  rubocop
+  rubocop \
+  rabbit
