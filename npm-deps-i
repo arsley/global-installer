@@ -12,10 +12,11 @@ npm i -g npm
 
 # install dependents
 npm i -g \
-  eslint@4.19.1 \
+  eslint \
   eslint-config-airbnb-base \
   eslint-plugin-import \
   eslint-plugin-react \
+  babel-eslint \
   surge \
   electron \
   chromenu \
