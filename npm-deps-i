@@ -5,7 +5,7 @@ BLUE='\033[0;34m'
 DEF='\033[0m'
 
 echo -e "${BLUE}...Install node packages..."
-echo -e "${BLUE}Last updated: 2018/10/10${DEF}"
+echo -e "${BLUE}Last updated: 2018/11/16${DEF}"
 
 # update self
 npm i -g npm
@@ -20,15 +20,9 @@ npm i -g \
   surge \
   electron \
   chromenu \
-  elm \
-  elm-format \
-  create-react-app \
   now \
-  now-compose
-
-# use yarn instead of npm
-# because of `npm i -g mstdn` do not work for me
-yarn global add mstdn --prefix /usr/local
+  prisma \
+  @angular/cli
 
 echo -e "${BLUE}List up what you installed global${DEF}"
 npm ls -g --depth 0
