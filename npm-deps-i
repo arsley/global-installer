@@ -22,7 +22,9 @@ npm i -g \
   chromenu \
   now \
   prisma \
-  @angular/cli
+  @angular/cli \
+  typescript \
+  tslint
 
 echo -e "${BLUE}List up what you installed global${DEF}"
 npm ls -g --depth 0
