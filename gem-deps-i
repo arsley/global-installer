@@ -5,11 +5,12 @@ BLUE='\033[0;34m'
 DEF='\033[0m'
 
 echo -e "${BLUE}...Install ruby packages..."
-echo -e "${BLUE}Last updated: 2018/10/09${DEF}"
+echo -e "${BLUE}Last updated: 2019/06/20${DEF}"
 
 # Install dependents
 gem i --no-document \
-  bundler \
   rubocop \
-  travis
+  travis  \
+  solargraph \
+  rails
 
