@@ -5,7 +5,7 @@ BLUE='\033[0;34m'
 DEF='\033[0m'
 
 echo -e "${BLUE}...Install node packages..."
-echo -e "${BLUE}Last updated: 2018/11/16${DEF}"
+echo -e "${BLUE}Last updated: 2019/09/24${DEF}"
 
 # update self
 npm i -g npm
@@ -18,7 +18,7 @@ npm i -g \
   eslint-plugin-react \
   babel-eslint \
   surge \
-  electron \
+  favicon-emoji \
   chromenu \
   now \
   prisma \
